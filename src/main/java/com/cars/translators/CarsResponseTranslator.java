@@ -66,6 +66,7 @@ public class CarsResponseTranslator {
                                 .map(trimResponse -> TrimViewModel
                                         .builder()
                                         .trimName(trimResponse.getTrimName())
+                                        .carName(manufacturerTrimsResponse.getCar().getCarName())
                                         .build())
                                 .collect(Collectors.toList()))
                         .build())

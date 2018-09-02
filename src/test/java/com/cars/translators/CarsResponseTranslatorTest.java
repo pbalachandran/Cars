@@ -20,7 +20,7 @@ public class CarsResponseTranslatorTest {
     }
 
     @Test
-    public void translateManufactuerResponses_returnsManufacturerViewModels() {
+    public void translateManufacturerResponses_returnsManufacturerViewModels() {
 
         List<ManufacturerResponse> manufacturerResponses = new ArrayList<>();
 
@@ -191,11 +191,13 @@ public class CarsResponseTranslatorTest {
         TrimResponse trim1 = TrimResponse
                 .builder()
                 .trimName("LX")
+                .carName("Accord")
                 .build();
 
         TrimResponse trim2 = TrimResponse
                 .builder()
                 .trimName("EX")
+                .carName("Accord")
                 .build();
 
         List<TrimResponse> trims = new ArrayList<>();
@@ -221,11 +223,13 @@ public class CarsResponseTranslatorTest {
         TrimViewModel trimViewModel1 = TrimViewModel
                 .builder()
                 .trimName("LX")
+                .carName("Accord")
                 .build();
 
         TrimViewModel trimViewModel2 = TrimViewModel
                 .builder()
                 .trimName("EX")
+                .carName("Accord")
                 .build();
         trimViewModels.add(trimViewModel1);
         trimViewModels.add(trimViewModel2);
