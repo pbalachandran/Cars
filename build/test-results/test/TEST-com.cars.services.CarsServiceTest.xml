@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cars.services.CarsServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-09-02T19:10:50" hostname="MacBookPro" time="0.016">
+  <properties/>
+  <testcase name="addManufacturer_addsCarManufacturer" classname="com.cars.services.CarsServiceTest" time="0.013"/>
+  <testcase name="trims_returnsTrimsForManufacturerCarCombination" classname="com.cars.services.CarsServiceTest" time="0.0"/>
+  <testcase name="getManufacturers_retunsManufacturers" classname="com.cars.services.CarsServiceTest" time="0.0"/>
+  <testcase name="getCarsForManufacturer_returnsCars" classname="com.cars.services.CarsServiceTest" time="0.001"/>
+  <testcase name="trim_addsTrimToManufacturerCarCombination" classname="com.cars.services.CarsServiceTest" time="0.001"/>
+  <testcase name="addCar_addsCarToManufacturer" classname="com.cars.services.CarsServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Focus",
+    "numberOfCylinders": 4,
+    "manufacturerName" : "Ford"
+  },
+  {
+    "name": "Explorer",
+    "numberOfCylinders": 6,
+    "manufacturerName" : "Ford"
+  }
+]

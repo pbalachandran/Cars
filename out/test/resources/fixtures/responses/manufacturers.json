@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Ford",
+    "countryOfOrigin": "USA"
+  },
+  {
+    "name": "Honda",
+    "countryOfOrigin": "Japan"
+  },
+  {
+    "name": "Toyota",
+    "countryOfOrigin": "Japan"
+  }
+]

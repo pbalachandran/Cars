@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cars.controllers.CarsControllerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-09-02T19:10:49" hostname="MacBookPro" time="0.229">
+  <properties/>
+  <testcase name="manufacturer_addsCarManufacturer" classname="com.cars.controllers.CarsControllerTest" time="0.161"/>
+  <testcase name="trims_returnsTrimsForManufacturerCarCombination" classname="com.cars.controllers.CarsControllerTest" time="0.028"/>
+  <testcase name="manufacturers_returnsCarManufacturers" classname="com.cars.controllers.CarsControllerTest" time="0.012"/>
+  <testcase name="trim_addsTrimForManufacturerCarCombination" classname="com.cars.controllers.CarsControllerTest" time="0.008"/>
+  <testcase name="cars_returnsCarsByManufacturer" classname="com.cars.controllers.CarsControllerTest" time="0.007"/>
+  <testcase name="car_addsCarForManufacturer" classname="com.cars.controllers.CarsControllerTest" time="0.007"/>
+  <system-out><![CDATA[14:10:47.479 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.cars.controllers.CarsControllerTest]
+14:10:47.486 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:10:47.492 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:10:47.510 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.cars.controllers.CarsControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:10:47.526 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.cars.controllers.CarsControllerTest]: class path resource [com/cars/controllers/CarsControllerTest-context.xml] does not exist
+14:10:47.527 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.cars.controllers.CarsControllerTest]: class path resource [com/cars/controllers/CarsControllerTestContext.groovy] does not exist
+14:10:47.527 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.cars.controllers.CarsControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:10:47.574 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.cars.controllers.CarsControllerTest]
+14:10:47.593 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.cars.controllers.CarsControllerTest]: using defaults.
+14:10:47.595 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14:10:47.606 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+14:10:47.606 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+14:10:47.607 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@43a67024, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7fcefcdf, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7a708e43, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4ad5a63e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3a02d810, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3222e38b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4cde611a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2bdddae9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7b355da, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2228d01c]
+14:10:47.608 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cars.controllers.CarsControllerTest]
+14:10:47.609 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cars.controllers.CarsControllerTest]
+14:10:47.609 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cars.controllers.CarsControllerTest]
+14:10:47.609 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cars.controllers.CarsControllerTest]
+14:10:47.613 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@2484ada5 testClass = CarsControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@164f33c3 testClass = CarsControllerTest, locations = '{}', classes = '{class com.cars.CarsApp}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@e7e8512, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7e99f43f, [ImportsContextCustomizer@7f888867 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.SpringBootTestContextCustomizer@56cdda1d, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3b7c8158, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@213d6743, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+14:10:47.613 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cars.controllers.CarsControllerTest]
+14:10:47.614 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cars.controllers.CarsControllerTest]
+14:10:47.615 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@2484ada5 testClass = CarsControllerTest, testInstance = com.cars.controllers.CarsControllerTest@d3dd7b2, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@164f33c3 testClass = CarsControllerTest, locations = '{}', classes = '{class com.cars.CarsApp}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@e7e8512, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7e99f43f, [ImportsContextCustomizer@7f888867 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.SpringBootTestContextCustomizer@56cdda1d, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3b7c8158, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@213d6743, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]].
+14:10:47.673 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+14:10:47.674 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+14:10:47.675 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [MapPropertySource@384744405 {name='systemProperties', properties={java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib, java.vm.version=25.112-b16, gopherProxySet=false, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, sun.java.launcher=SUN_STANDARD, user.country=US, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/Users/pbalachandran/IdeaProjects/Cars, java.runtime.version=1.8.0_112-b16, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/endorsed, os.arch=x86_64, java.io.tmpdir=/var/folders/q9/d29pbjc13xbf230j3p4s00d00000gn/T/, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Mac OS X, sun.jnu.encoding=UTF-8, java.library.path=/Users/pbalachandran/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.specification.name=Java Platform API Specification, java.class.version=52.0, org.gradle.native=false, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.13.6, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.home=/Users/pbalachandran, user.timezone=America/Chicago, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, java.class.path=/Users/pbalachandran/IdeaProjects/Cars/build/classes/java/test:/Users/pbalachandran/IdeaProjects/Cars/build/resources/test:/Users/pbalachandran/IdeaProjects/Cars/build/classes/java/main:/Users/pbalachandran/IdeaProjects/Cars/build/resources/main:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.5.12.RELEASE/649d368fa6b0a511936b50f28c72663c503eb84c/spring-boot-starter-web-1.5.12.RELEASE.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.5.12.RELEASE/9a8f743ffab5ae38a17a85008a2c3cb374871551/spring-boot-starter-test-1.5.12.RELEASE.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.18/557d13dcb647038dc687390711ccb5c9b3ffbd60/lombok-1.16.18.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f/commons-io-2.5.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/e8546f5bef4e061d8dd73895b4e8f40e3fe6effe/mockito-core-1.10.19.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.hamcrest/java-hamcrest/2.0.0.0/f1c8853ade0ecf707f5a261c830e98893983813/java-hamcrest-2.0.0.0.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.5.12.RELEASE/e4f0748fa765a0416638920058289f6db6ee0e36/spring-boot-starter-1.5.12.RELEASE.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.5.12.RELEASE/a4e81f071d2b5a9c9fb5a219b361b683a8eb3d91/spring-boot-starter-tomcat-1.5.12.RELEASE.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.3.6.Final/4c730be8bf55a8e9a61e79a2f2c079abf48b718/hibernate-validator-5.3.6.Final.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.11.1/341edc63fdd8b44e17b2c36abbc9b451d8fd05a5/jackson-databind-2.8.11.1.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.16.RELEASE/2a171b1d701e450860bd5544a87a727048639a45/spring-webmvc-4.3.16.RELEASE.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.16.RELEASE/9321f7c56e8c4561c92aa62f48a0cefe0a667315/spring-web-4.3.16.RELEASE.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/1.5.12.RELEASE/7d710647eae22ecc28c069a547126bc1dcdeaff2/spring-boot-test-autoconfigure-1.5.12.RELEASE.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/1.5.12.RELEASE/b2424c29750561e9800c41dcc8d4e02e93d6c1ab/spring-boot-test-1.5.12.RELEASE.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.2.0/22290d17944bd239fabf5ac69005a60a7ecbbbcb/json-path-2.2.0.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/2.6.0/b532c3fc4f66bcfee4989a3514f1cd56203a33ad/assertj-core-2.6.0.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.4.0/9cdbb373a06f6513e51e8c545ee6a5e981463edb/jsonassert-1.4.0.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.16.RELEASE/adb21bf985a998da78de96f6deefe85f058457eb/spring-test-4.3.16.RELEASE.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.5.12.RELEASE/932ab2609793ebc00576cbae77085bb83e5c9008/spring-boot-autoconfigure-1.5.12.RELEASE.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.5.12.RELEASE/bc41c1da2bbb4eaebfc5b464b0a993ca8ef83156/spring-boot-1.5.12.RELEASE.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.16.RELEASE/b56bbfb12b8c388443589fc5d4f2f0f1774dc44d/spring-context-4.3.16.RELEASE.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.16.RELEASE/2c74e87bbf99e7cb6903046e19345a04f843d817/spring-aop-4.3.16.RELEASE.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.16.RELEASE/2a0cb663069001e0b210d509f7b1904888557e63/spring-beans-4.3.16.RELEASE.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.16.RELEASE/f69b403faa1dd97df212217aece1ad3497dfdf2c/spring-expression-4.3.16.RELEASE.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.16.RELEASE/fe3f4186562c0dfa70a09510f886cc11a483ddde/spring-core-4.3.16.RELEASE.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.5.12.RELEASE/88b9a16ff87f0a7faec7848e9a5626ffbbac588f/spring-boot-starter-logging-1.5.12.RELEASE.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/7a27ea250c5130b2922b86dea63cbb1cc10a660c/snakeyaml-1.17.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.5.29/37786f4ca8a1597a91a0f437e659a76d1fcc5bf1/tomcat-embed-websocket-8.5.29.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.29/51eac5adde4bc019261b787cb99e5548206908e6/tomcat-embed-core-8.5.29.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.5.29/893fb2c87ec1aa248a7911d76c0c06b3fca6bc9b/tomcat-embed-el-8.5.29.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.2.Final/3789d00e859632e6c6206adc0c71625559e6e3b0/jboss-logging-3.3.2.Final.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.4/3d5f48f10bbe4eb7bd862f10c0583be2e0053c6/classmate-1.3.4.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/45b426f7796b741035581a176744d91090e2e6fb/jackson-annotations-2.8.0.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.11/876ead1db19f0c9e79c9789273a3ef8c6fd6c29b/jackson-core-2.8.11.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.2.1/5b9e5df7a62d1279b70dc882b041d249c4f0b002/json-smart-2.2.1.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.11/ccedfbacef4a6515d2983e3f89ed753d5d4fb665/logback-classic-1.1.11.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.25/f8c32b13ff142a513eeb5b6330b1588dcb2c0461/jcl-over-slf4j-1.7.25.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.25/af5364cd6679bfffb114f0dec8a157aaa283b76/jul-to-slf4j-1.7.25.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.25/a87bb47468f47ee7aabbd54f93e133d4215769c3/log4j-over-slf4j-1.7.25.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-annotations-api/8.5.29/5505a72b5e7d6c2324d3f104cdd613a5770b4601/tomcat-annotations-api-8.5.29.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.1/a527213f2fea112a04c9bdf0ec0264e34104cd08/accessors-smart-1.1.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.11/88b8df40340eed549fb07e2613879bf6b006704d/logback-core-1.1.11.jar:/Users/pbalachandran/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar, user.name=pbalachandran, java.vm.specification.version=1.8, sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 2', java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.lwawt.macosx.LWCToolkit, java.vm.info=mixed mode, java.version=1.8.0_112, java.ext.dirs=/Users/pbalachandran/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/classes, java.vendor=Oracle Corporation, org.gradle.test.worker=2, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeBig, sun.cpu.endian=little, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, sun.cpu.isalist=}}, SystemEnvironmentPropertySource@795773770 {name='systemEnvironment', properties={PATH=/Users/pbalachandran/.nvm/versions/node/v10.9.0/bin:~/bin:/usr/local/bin:/usr/local:/usr/local/sbin:/Library/apache-maven-3.3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/bin, HISTCONTROL=ignorespace:erasedups, GREP_COLOR=1;33, HISTSIZE=5000, BLOCKSIZE=1k, JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home, TERM=xterm-256color, BASH_IT=/Users/pbalachandran/bash-it, JRE_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre, IRC_CLIENT=irssi, DISPLAY=/private/tmp/com.apple.launchd.kDw8sF7wnF/org.macosforge.xquartz:0, BASH_IT_THEME=bobby, AUTOFEATURE=true autotest, APP_ICON_75262=/Users/pbalachandran/IdeaProjects/Cars/media/gradle.icns, JAVA_MAIN_CLASS_75262=org.gradle.wrapper.GradleWrapperMain, LOGNAME=pbalachandran, PWD=/Users/pbalachandran/IdeaProjects/Cars, XPC_SERVICE_NAME=0, TODO=t, NVM_CD_FLAGS=, NVM_DIR=/Users/pbalachandran/.nvm, SHELL=/bin/bash, GIT_HOSTING=git@git.domain.com, LSCOLORS=Gxfxcxdxdxegedabagacad, SCM_CHECK=true, OLDPWD=/Users/pbalachandran/IdeaProjects/Cars, USER=pbalachandran, TMPDIR=/var/folders/q9/d29pbjc13xbf230j3p4s00d00000gn/T/, SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.iUagnKzsJO/Listeners, EDITOR=/usr/bin/vi, JAVA_MAIN_CLASS_75277=worker.org.gradle.process.internal.worker.GradleWorkerMain, APP_NAME_75262=Gradle, XPC_FLAGS=0x0, __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0, Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.BVUmHdEeje/Render, LC_CTYPE=en_US.UTF-8, NVM_BIN=/Users/pbalachandran/.nvm/versions/node/v10.9.0/bin, SHLVL=1, HOME=/Users/pbalachandran}}]
+14:10:47.678 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
+14:10:47.679 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'Inlined Test Properties' with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v1.5.12.RELEASE)
+
+2018-09-02 14:10:47.929  INFO 75277 --- [    Test worker] com.cars.controllers.CarsControllerTest  : Starting CarsControllerTest on MacBookPro with PID 75277 (started by pbalachandran in /Users/pbalachandran/IdeaProjects/Cars)
+2018-09-02 14:10:47.929  INFO 75277 --- [    Test worker] com.cars.controllers.CarsControllerTest  : No active profile set, falling back to default profiles: default
+2018-09-02 14:10:47.947  INFO 75277 --- [    Test worker] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@272e4ed6: startup date [Sun Sep 02 14:10:47 CDT 2018]; root of context hierarchy
+2018-09-02 14:10:48.936  INFO 75277 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+2018-09-02 14:10:48.959  INFO 75277 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-02 14:10:48.960  INFO 75277 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-09-02 14:10:49.049  INFO 75277 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-02 14:10:49.049  INFO 75277 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1105 ms
+2018-09-02 14:10:49.158  INFO 75277 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-02 14:10:49.162  INFO 75277 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-02 14:10:49.163  INFO 75277 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-02 14:10:49.163  INFO 75277 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-02 14:10:49.163  INFO 75277 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-02 14:10:49.394  INFO 75277 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet ''
+2018-09-02 14:10:49.395  INFO 75277 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2018-09-02 14:10:49.487  INFO 75277 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/autos/trim],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.cars.models.TrimViewModel> com.cars.controllers.CarsController.trim(com.cars.requests.CarTrimAddRequest)
+2018-09-02 14:10:49.488  INFO 75277 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/autos/trims/{manufacturerName}/{carName}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.cars.models.ManufacturerTrimsViewModel> com.cars.controllers.CarsController.trims(java.lang.String,java.lang.String)
+2018-09-02 14:10:49.489  INFO 75277 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/autos/car],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.cars.models.CarViewModel> com.cars.controllers.CarsController.car(com.cars.requests.CarAddRequest)
+2018-09-02 14:10:49.489  INFO 75277 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/autos/cars/{manufacturer}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.cars.models.CarViewModel>> com.cars.controllers.CarsController.cars(java.lang.String)
+2018-09-02 14:10:49.489  INFO 75277 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/autos/manufacturers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.cars.models.ManufacturerViewModel>> com.cars.controllers.CarsController.manufacturers()
+2018-09-02 14:10:49.490  INFO 75277 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/autos/manufacturer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.cars.models.ManufacturerViewModel> com.cars.controllers.CarsController.manufacturer(com.cars.requests.ManufacturerAddRequest)
+2018-09-02 14:10:49.492  INFO 75277 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-02 14:10:49.493  INFO 75277 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-02 14:10:49.518  INFO 75277 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-02 14:10:49.518  INFO 75277 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-02 14:10:49.529  INFO 75277 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-02 14:10:49.574  INFO 75277 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@272e4ed6: startup date [Sun Sep 02 14:10:47 CDT 2018]; root of context hierarchy
+2018-09-02 14:10:49.644  INFO 75277 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 249 ms
+2018-09-02 14:10:49.771  INFO 75277 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 58254 (http)
+2018-09-02 14:10:49.775  INFO 75277 --- [    Test worker] com.cars.controllers.CarsControllerTest  : Started CarsControllerTest in 2.093 seconds (JVM running for 2.866)
+{
+  "name": "Nissan",
+  "countryOfOrigin": "Japan"
+}
+{
+  "name": "Nissan",
+  "countryOfOrigin": "Japan"
+}
+{
+  "manufacturerName": "Honda",
+  "countryOfOrigin": "Japan",
+  "car": {
+      "carName": "Accord",
+      "numberOfCylinders": 4,
+      "trims": [
+        {
+          "trimName": "Accord-Trim1"
+        },
+        {
+          "trimName": "Accord-Trim2"
+        }
+      ]
+    }
+}
+{
+  "manufacturerName": "Honda",
+  "countryOfOrigin": "Japan",
+  "car": {
+      "carName": "Accord",
+      "numberOfCylinders": 4,
+      "trims": [
+        {
+          "trimName": "Accord-Trim1"
+        },
+        {
+          "trimName": "Accord-Trim2"
+        }
+      ]
+    }
+}
+[
+  {
+    "name": "Ford",
+    "countryOfOrigin": "USA"
+  },
+  {
+    "name": "Honda",
+    "countryOfOrigin": "Japan"
+  },
+  {
+    "name": "Toyota",
+    "countryOfOrigin": "Japan"
+  }
+]
+[
+  {
+    "name": "Ford",
+    "countryOfOrigin": "USA"
+  },
+  {
+    "name": "Honda",
+    "countryOfOrigin": "Japan"
+  },
+  {
+    "name": "Toyota",
+    "countryOfOrigin": "Japan"
+  }
+]
+{
+  "trimName": "LimitedEdition",
+  "carName": "Accord"
+}
+{
+  "trimName": "LimitedEdition",
+  "carName": "Accord"
+}
+[
+  {
+    "name": "Focus",
+    "numberOfCylinders": 4,
+    "manufacturerName" : "Ford"
+  },
+  {
+    "name": "Explorer",
+    "numberOfCylinders": 6,
+    "manufacturerName" : "Ford"
+  }
+]
+[
+  {
+    "name": "Focus",
+    "numberOfCylinders": 4,
+    "manufacturerName" : "Ford"
+  },
+  {
+    "name": "Explorer",
+    "numberOfCylinders": 6,
+    "manufacturerName" : "Ford"
+  }
+]
+{
+  "name": "Pathfinder",
+  "numberOfCylinders": 6,
+  "manufacturerName" : "Nissan"
+}
+{
+  "name": "Pathfinder",
+  "numberOfCylinders": 6,
+  "manufacturerName" : "Nissan"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
