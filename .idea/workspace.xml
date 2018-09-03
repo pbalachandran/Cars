@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bed0dee-b27b-4bc5-8652-dab42ca00153" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/CarsApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/configurations/CarsConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/controllers/CarsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/models/CarTrimViewModel$CarTrimViewModelBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/models/CarTrimViewModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/models/CarViewModel$CarViewModelBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/models/CarViewModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/models/ManufacturerTrimsViewModel$ManufacturerTrimsViewModelBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/models/ManufacturerTrimsViewModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/models/ManufacturerViewModel$ManufacturerViewModelBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/models/ManufacturerViewModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/models/TrimViewModel$TrimViewModelBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/models/TrimViewModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/requests/CarAddRequest$CarAddRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/requests/CarAddRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/requests/CarTrimAddRequest$CarTrimAddRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/requests/CarTrimAddRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/requests/ManufacturerAddRequest$ManufacturerAddRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/requests/ManufacturerAddRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/responses/CarResponse$CarResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/responses/CarResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/responses/CarTrimResponse$CarTrimResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/responses/CarTrimResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/responses/ManufacturerResponse$ManufacturerResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/responses/ManufacturerResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/responses/ManufacturerTrimsResponse$ManufacturerTrimsResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/responses/ManufacturerTrimsResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/responses/TrimResponse$TrimResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/responses/TrimResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/services/CarsService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/services/CarsService$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/services/CarsService$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/services/CarsService$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/services/CarsService$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/services/CarsService$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/services/CarsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cars/translators/CarsResponseTranslator.class" beforeDir="false" />
-    </list>
+    <list default="true" id="2bed0dee-b27b-4bc5-8652-dab42ca00153" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +18,7 @@
     <session id="-2094939252">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="2" />
@@ -69,13 +26,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="2" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="2" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
@@ -94,13 +51,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="151" selection-start-line="2" selection-start-column="151" selection-end-line="2" selection-end-column="151" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cars/controllers/CarsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -524,9 +478,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1440" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="841" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -542,6 +497,41 @@
             <path>
               <item name="Cars" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cars" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cars" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cars" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cars" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cars" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cars" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cars" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -588,18 +578,18 @@
       <option name="presentableId" value="Default" />
       <updated>1535928673936</updated>
       <workItem from="1535928675274" duration="111000" />
-      <workItem from="1535933152094" duration="127000" />
+      <workItem from="1535933152094" duration="215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238000" />
+    <option name="totallyTimeSpent" value="326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="841" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -655,6 +645,13 @@
             <caret line="2" column="151" selection-start-line="2" selection-start-column="151" selection-end-line="2" selection-end-column="151" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cars/controllers/CarsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>

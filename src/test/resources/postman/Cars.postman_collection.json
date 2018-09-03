@@ -1,0 +1,193 @@
+{
+	"info": {
+		"name": "Cars",
+		"_postman_id": "03239259-3c27-4233-d3a2-0fa896bce135",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/autos/trims/Honda/Accord",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"carName\": \"Model3\",\n\t\"manufacturerName\": \"Tesla\",\n\t\"trimName\": \"Model3-Trim1\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/autos/trims/Honda/Accord",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"autos",
+						"trims",
+						"Honda",
+						"Accord"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/autos/trim",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Model3\",\n\t\"manufacturerName\": \"Tesla\",\n\t\"trimName\": \"Model3-Trim1\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/autos/trim",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"autos",
+						"trim"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/autos/car",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Model3\",\n\t\"manufacturerName\": \"Tesla\",\n\t\"numberOfCylinders\": 4\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/autos/car",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"autos",
+						"car"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/autos/manufacturers",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Integra\",\n\t\"numberOfCylinders\" : 4,\n\t\"manufacturerName\": \"Acura\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/autos/manufacturers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"autos",
+						"manufacturers"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/autos/manufacturer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Tesla\",\n\t\"countryOfOrigin\": \"USA\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/autos/manufacturer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"autos",
+						"manufacturer"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/autos/cars/Honda",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Integra\",\n\t\"numberOfCylinders\" : 4,\n\t\"manufacturerName\": \"Acura\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/autos/cars/Honda",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"autos",
+						"cars",
+						"Honda"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
